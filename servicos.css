@@ -1,0 +1,327 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+@media(max-width:599px){
+.container{
+    width: 100vw;
+    height: 100%;
+    display: block;
+    background-color: rgb(230, 237, 241);
+   
+    /* border: solid 1px red;; */
+   
+   
+}
+.img{
+    display: none;
+    grid-column: 1/5;
+    grid-row: 1/5;
+    position: relative;
+    z-index: 1;
+    /* border: solid 1px red; */
+}
+.img img{
+    width: 100%;
+    height: 100%;
+}
+.texto{
+    display: block;
+    text-align: center;
+    padding-bottom: 50px;
+   
+}
+h1{
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/4;
+    /* border: solid 1px red; */
+    z-index: 3;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    padding-top: 30px;
+    
+   
+
+}
+.serv1{
+    position: relative;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    /* border: solid 1px red; */
+    z-index: 3;
+    text-align: center;
+}
+.serv2{
+    position: relative;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    /* border: solid 1px red; */
+    z-index: 3;
+    text-align: center;
+}
+.serv3{
+    position: relative;
+    grid-column: 4/5;
+    grid-row: 2/3;
+    /* border: solid 1px red; */
+    z-index: 3;
+    text-align: center;
+}
+.serv4{
+    position: relative;
+    grid-column: 2/3;
+    grid-row: 3/3;
+    /* border: solid 1px red; */
+    z-index: 3;
+    text-align: center;
+}
+.serv5{
+    position: relative;
+    grid-column: 3/4;
+    grid-row: 3/3;
+    /* border: solid 1px red; */
+    z-index: 3;
+    text-align: center;
+}
+.serv6{
+    position: relative;
+    grid-column: 4/5;
+    grid-row: 3/3;
+    /* border: solid 1px red; */
+    z-index: 3;
+    text-align: center;
+}
+.serv1, .serv2, .serv3, .serv4, .serv5, .serv6{
+   
+    margin-top: 50px;
+  
+}
+.serv1, .serv2, .serv3, .serv4, .serv5, .serv6, p{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 25px;
+   font-weight: bold;
+   padding: 0px 50px;  
+}
+
+}
+
+
+@media(min-width:600px){
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    /* border: solid 1px red;; */
+    
+   
+}
+.img{
+    display: block;
+    grid-column: 1/5;
+    grid-row: 1/5;
+    position: relative;
+    z-index: 1;
+    /* border: solid 1px red; */
+}
+.img img{
+    width: 100%;
+    height: 100%;
+}
+.texto{
+    display: grid;
+    grid-column: 1/5;
+    grid-row: 1/4;
+  align-items: center;
+    justify-content: center;
+   
+}
+h1{
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/4;
+    /* border: solid 1px red; */
+    z-index: 3;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-left: 50px;
+
+}
+.serv1{
+    position: relative;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    /* border: solid 1px red; */
+    z-index: 3;
+    text-align: center;
+}
+.serv2{
+    position: relative;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    /* border: solid 1px red; */
+    z-index: 3;
+    text-align: center;
+}
+.serv3{
+    position: relative;
+    grid-column: 4/5;
+    grid-row: 2/3;
+    /* border: solid 1px red; */
+    z-index: 3;
+    text-align: center;
+}
+.serv4{
+    position: relative;
+    grid-column: 2/3;
+    grid-row: 3/3;
+    /* border: solid 1px red; */
+    z-index: 3;
+    text-align: center;
+}
+.serv5{
+    position: relative;
+    grid-column: 3/4;
+    grid-row: 3/3;
+    /* border: solid 1px red; */
+    z-index: 3;
+    text-align: center;
+}
+.serv6{
+    position: relative;
+    grid-column: 4/5;
+    grid-row: 3/3;
+    /* border: solid 1px red; */
+    z-index: 3;
+    text-align: center;
+}
+.serv1, .serv2, .serv3, .serv4, .serv5, .serv6{
+   
+    margin-left: 25px;
+}
+.serv1, .serv2, .serv3, .serv4, .serv5, .serv6, p{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+   font-weight: bold;
+   padding: 0px 10px;
+  
+}
+.serv1, .serv2, .serv3, .serv4, .serv5, .serv6, img{
+    width: 65%;
+}
+}
+
+@media(min-width:950px){
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    /* border: solid 1px red;; */
+   
+   
+}
+.img{
+    display: block;
+    grid-column: 1/5;
+    grid-row: 1/5;
+    position: relative;
+    z-index: 1;
+    /* border: solid 1px red; */
+}
+.img img{
+    width: 100%;
+    height: 100%;
+}
+.texto{
+    display: grid;
+    grid-column: 1/5;
+    grid-row: 1/4;
+  align-items: center;
+    justify-content: center;
+   
+}
+h1{
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/4;
+    /* border: solid 1px red; */
+    z-index: 3;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    margin-left: 50px;
+
+}
+.serv1{
+    position: relative;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    /* border: solid 1px red; */
+    z-index: 3;
+    text-align: center;
+}
+.serv2{
+    position: relative;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    /* border: solid 1px red; */
+    z-index: 3;
+    text-align: center;
+}
+.serv3{
+    position: relative;
+    grid-column: 4/5;
+    grid-row: 2/3;
+    /* border: solid 1px red; */
+    z-index: 3;
+    text-align: center;
+}
+.serv4{
+    position: relative;
+    grid-column: 2/3;
+    grid-row: 3/3;
+    /* border: solid 1px red; */
+    z-index: 3;
+    text-align: center;
+}
+.serv5{
+    position: relative;
+    grid-column: 3/4;
+    grid-row: 3/3;
+    /* border: solid 1px red; */
+    z-index: 3;
+    text-align: center;
+}
+.serv6{
+    position: relative;
+    grid-column: 4/5;
+    grid-row: 3/3;
+    /* border: solid 1px red; */
+    z-index: 3;
+    text-align: center;
+}
+.serv1, .serv2, .serv3, .serv4, .serv5, .serv6{
+   
+    margin-left: 40px;
+}
+.serv1, .serv2, .serv3, .serv4, .serv5, .serv6, p{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+   font-weight: bold;
+   padding: 0px 10px;
+  
+}
+.serv1, .serv2, .serv3, .serv4, .serv5, .serv6, img{
+    width: 65%;
+}
+}
